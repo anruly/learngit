@@ -1,0 +1,10 @@
+git config --global user.name 'xxx'
+git config --global user.email 'xxx'
+
+mkdir xxx					#create a git repository
+pwd							#check location
+
+git init					#把目录变成git可以管理的仓库
+git add xxx					#add file
+git commit -m 'xxx'			#commit file with remarks
+git status					#check repository status
