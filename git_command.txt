@@ -20,4 +20,7 @@ git reset HEAD filename
 git checkout -- filename	#if file added stage,move to unstage,and discard
 
 cat filename				#scan file
-	
+
+rm filename					#delete file from unstage
+git rm filename				#delete file from repository
+git commit -m 'xxx'			#delete file from repository and commit
