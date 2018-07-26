@@ -12,4 +12,10 @@ git diff file				#check different
 git log						#check history
 
 git reset --hard xxx		#回退到某一个版本，xxx代表提交的版本号
-git reflog					#记录每一次命令				
+git reflog					#记录每一次命令
+
+git checkout -- filename	#discard changed file,if file not add to stage
+
+git reset HEAD filename
+git checkout -- filename	#if file added stage,move to unstage,and discard
+	
