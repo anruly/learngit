@@ -8,4 +8,5 @@ git init					#把目录变成git可以管理的仓库
 git add xxx					#add file
 git commit -m 'xxx'			#commit file with remarks
 git status					#check repository status
-git diff file				#check different					
+git diff file				#check different
+git log						#check history					
